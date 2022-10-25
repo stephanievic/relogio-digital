@@ -19,8 +19,8 @@ setInterval(() => {
 
     const time = hour + ":" + minutes + ":" + seconds;
     
-    const divClock = document.getElementById ("hour");
-    divClock.textContent = time; 
+    const clockContent = document.getElementById ("hour");
+    clockContent.textContent = time; 
 }, 1000);
 
 time ();
